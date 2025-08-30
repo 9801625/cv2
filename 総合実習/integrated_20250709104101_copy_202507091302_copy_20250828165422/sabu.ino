@@ -218,9 +218,9 @@ void loop() {
       send_current_to_motor(current_A,motor_id_gm,can_tx_id_gm);
       send_current_to_motor(current_A,motor_id_1,can_tx_id);
       send_current_to_motor(current_A,motor_id_2,can_tx_id);
-      send_current_to_motor(current_A,motor_id_3,can_tx_id);
       delay(10);  // 周期制御（10ms）
       break;
   }
+
 
 }
